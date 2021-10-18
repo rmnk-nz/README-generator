@@ -7,7 +7,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
-        name: 'projectName',
+        name: 'title',
         message: 'What is the project title?',
     },
     {
@@ -35,6 +35,7 @@ const questions = [
             'Mozilla',
             'Apache',
             'ISC',
+            'None',
         ]
     },
     {
@@ -45,12 +46,12 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Include test Instructions for the project',
+        message: 'Include test instructions for the project',
     },
     {
         type: 'input',
         name: 'githubUsername',
-        message: 'Enter your Github Username'
+        message: 'Enter your Github username'
     },
     {
         type: 'input',
@@ -61,10 +62,21 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err
+    ? console.log(err)
+    : console.log('Success! README file created')
+    );
+}
 
 // TODO: Create a function to initialize app
-function init() {}
-
+function init() {
+    inquirer
+    .prompt(questions)
+    .then((answers) =>  {
+        writeToFile('README.md', generateMarkdown(answers))
+    });
+}
 // Function call to initialize app
 init();
