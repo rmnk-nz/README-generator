@@ -23,8 +23,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        messgae: 'Provide usage information for project'
-
+        message: 'Provide usage information for project'
     },
     {
         type: 'list',
@@ -35,7 +34,6 @@ const questions = [
             'Mozilla',
             'Apache',
             'ISC',
-            'None',
         ]
     },
     {
