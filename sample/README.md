@@ -1,7 +1,7 @@
-# README-Generator
+  # Sample
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Description
-  Create a command-line application to generate a professional README file 
+  Sample
 
   ## Table of Contents
   - [Installation](#installation)
@@ -10,22 +10,21 @@
   - [Test](#test)
   
   ## Installation
-  Git clone repo and install inquirer package
+  Sample
 
   ## Usage
-  Application will prompt user to input details of their project and generate a README.md with a heading, description, table of contents, licenses and details for clients to contact creator with any questions on the project.
+  Sample
 
   ## Contributing
-  Git pull request and contact via email if you wish to contribute to the project
+  Sample
 
   ## Test
-  Run node index.js in the command line  and answer all prompts.</br>
-  Link to test video: https://watch.screencastify.com/v/O6K5pKp5eZyUcRz6lBY1
+  Sample
 
   ## License
-  This application is covered by the ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) license.
+  This application is covered by ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) license.
 
   ## Questions
-  Link to my Github: https://github.com/rmnk-nz </br>
+  Link to my Github: https://github.com/Sample </br>
   If you have any questions with regards to this project please contact via email: </br>
-  manukau.rua@gmail.com
+  test@test.com
