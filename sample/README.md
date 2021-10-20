@@ -10,16 +10,17 @@
   - [Test](#test)
   
   ## Installation
-  git clone repo and install inquirer package
+  Git clone repo and install inquirer package
 
   ## Usage
-  application will prompt user to input details of their project and generate markdown with a heading, description, table of contents, licenses and user details if need to be contacted for questions on the project
+  Application will prompt user to input details of their project and generate a README.md with a heading, description, table of contents, licenses and details for clients to contact creator with any questions on the project.
 
   ## Contributing
   Git pull request and contact via email if you wish to contribute to the project
 
   ## Test
-  run node index.js in the command line  and answer all prompts
+  Run node index.js in the command line  and answer all prompts.</br>
+  Link to test video: https://watch.screencastify.com/v/O6K5pKp5eZyUcRz6lBY1
 
   ## License
   This application is covered by the ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) license.

@@ -7,18 +7,11 @@ function renderLicenseBadge(license) {
   } else {
     return '';
   }
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+
   if (renderLicenseBadge(data.license) === '') {
     return `# ${data.title}
 
@@ -52,7 +45,7 @@ function generateMarkdown(data) {
   ${data.email}`
 
   } else {
-
+    
   } return `# ${data.title}
   ${renderLicenseBadge(data.license)}
   ## Description
@@ -77,7 +70,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## License
-  This application is covered by the ${renderLicenseBadge(data.license)} license.
+  This application is covered by ${renderLicenseBadge(data.license)} license.
 
   ## Questions
   Link to my Github: https://github.com/${data.githubUsername} </br>
