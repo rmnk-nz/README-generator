@@ -34,6 +34,7 @@ const questions = [
             'Mozilla',
             'Apache',
             'ISC',
+            'None',
         ]
     },
     {
@@ -73,6 +74,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) =>  {
+        console.log(answers);
         writeToFile('README.md', generateMarkdown(answers))
     });
 }
