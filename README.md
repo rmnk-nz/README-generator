@@ -1,5 +1,4 @@
 # README-Generator
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Description
   Create a command-line application to generate a professional README file 
 
@@ -23,7 +22,7 @@
   Link to test video: https://watch.screencastify.com/v/O6K5pKp5eZyUcRz6lBY1
 
   ## License
-  This application is covered by the ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) license.
+ This application is not covered by any license.
 
   ## Questions
   Link to my Github: https://github.com/rmnk-nz </br>
